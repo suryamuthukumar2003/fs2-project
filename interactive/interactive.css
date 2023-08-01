@@ -1,0 +1,86 @@
+:root{
+    --black:black;
+    --grey:dimgray;
+}
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.landing{
+    background-image: url("../media/image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+header a{
+    text-decoration: none;
+    color:var(--black);
+}
+header{
+    display:flex;
+    padding: 1em;
+}
+#logo{
+    flex:3;
+    font-size: 3em;
+    text-shadow:grey 2px 0px 60%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+nav{
+    flex:1;
+    display:flex;
+}
+nav a{
+    flex:1;
+}
+nav a:hover{
+    color:var(--grey);
+}
+.maintext{
+    display:block;
+    height:60vh;
+    padding: 2em;;
+    justify-content:center;
+}
+.maintext div{
+    margin-top: 2em;
+}
+.maintext .tag1{
+    color:black;
+    font-weight: bolder;
+}
+.maintext .tag1 #briyani{
+    width: auto;
+    padding:10px;
+    border-style:solid;
+    box-sizing: var(--grey);
+    box-decoration-break: slice;
+    margin: 10px 10px;
+}
+.maintext .tag2{
+    font-weight: bolder;
+}
+.maintext .tag2 #swiggy{
+    width: auto;
+    padding:10px;
+    border-style:dashed;
+    box-decoration-break: slice;
+    margin: 10px 10px;
+}
+.tag2 a:hover{
+    color:var(--grey);
+}
+.maintext a{
+    color:black;
+}
+button {
+    background-color: #aeafb1;
+    color: rgb(37, 36, 36);
+    border: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
